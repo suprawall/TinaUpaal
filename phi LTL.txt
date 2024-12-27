@@ -1,0 +1,13 @@
+-([]({check-in p} => {45min après leur arriver}));
+
+-([](({B à bord} \/ {A à bord}) => {40min après}));
+
+-([]({check-in p} => 14h30_15h30));
+
+-([]({check-in e} => 14h30_15h30));
+
+-([](décollage => (16h20_16h45 \/ 17h20_17h45)));
+
+-([](demande => 16h45_17h00));
+
+-(<>({avion en l'air}));

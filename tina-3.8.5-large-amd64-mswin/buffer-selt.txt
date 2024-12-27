@@ -1,0 +1,10 @@
+Selt version 3.8.5/lm -- 12/01/24 -- LAAS/CNRS
+ktz loaded, 2 states, 1 transitions
+0.000s
+
+- p0;
+TRUE
+0.000s
+
+- 
+

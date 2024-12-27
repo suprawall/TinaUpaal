@@ -1,0 +1,42 @@
+p 150.0 50.0 p0 1 n
+p 315.0 330.0 demande 0 n
+p 610.0 50.0 observer 1 n
+t 610.0 270.0 t7 25 25 n
+t 610.0 110.0 to1 980 980 n
+p 610.0 190.0 16h20_16h45 0 n
+t 170.0 205.0 t4 0 w n
+p 40.0 505.0 {l'avion part} 0 n
+t 40.0 400.0 t3 5 5 n
+t 610.0 425.0 t0 15 15 n
+p 610.0 490.0 17h00_17h20 0 n
+p 610.0 625.0 17h20_17h45 0 n
+t 610.0 560.0 t8 20 20 n
+t 375.0 400.0 t5 0 5 n
+p 40.0 320.0 p2 0 n
+p 610.0 350.0 16h45_17h00 0 n
+t 40.0 200.0 t1 0 w n
+p 170.0 340.0 p1 1 n
+t 265.0 405.0 t6 5 5 n
+p 260.0 510.0 p3 0 n
+e t6 p3 1 n
+e 16h45_17h00 t0 1 n
+e p0 t1 1 n
+e p0 t4 1 n
+e t4 demande 1 n
+e demande t5 1 n
+e observer to1 1 n
+e to1 16h20_16h45 1 n
+e 16h20_16h45 t7 1 n
+e t7 16h45_17h00 1 n
+e p1 t4 1 n
+e t1 p2 1 n
+e p2 t3 1 n
+e t3 {l'avion part} 1 n
+e demande t6 1 n
+e t5 0.1959444098 133.6339417 p0 0.004524513724 177.3116443 1 n
+e t0 17h00_17h20 1 n
+e 17h00_17h20 t8 1 n
+e t8 17h20_17h45 1 n
+h {avion decolle}
+
+

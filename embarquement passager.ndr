@@ -1,0 +1,316 @@
+p 770.0 50.0 equipage 1 n
+t 770.0 105.0 t0 0 w n
+t 770.0 305.0 t1 5 5 n
+t 400.0 305.0 t8 5 5 n
+p 105.0 390.0 {queue 1} 0 n
+p 555.0 135.0 {check-in prime} 1 n
+p 400.0 390.0 {queue 2 } 0 n
+p 105.0 665.0 {sécurité} 0 n
+t 660.0 925.0 t5 10 15 n
+t 105.0 925.0 t6 10 15 n
+p 2220.0 100.0 observer 1 n
+t 400.0 925.0 t4 10 15 n
+p 660.0 390.0 {sécurité ' éq} 1 n
+p 770.0 390.0 {queue 3} 0 n
+p 470.0 390.0 {sécurité' A} 1 n
+p 105.0 1090.0 {Attente B} 0 n
+p 400.0 1090.0 {Attente A} 0 n
+p 660.0 1090.0 {attente équipage} 0 n
+p 240.0 390.0 {sécurité' B} 1 n
+t 400.0 555.0 t14 0 w n
+t 105.0 555.0 t13 0 w n
+t 770.0 555.0 t15 0 w n
+p 1020.0 1140.0 {bus au quai} 1 n
+t 40.0 1195.0 t19 0 w n
+t 105.0 1450.0 t23 15 15 n
+t 40.0 1450.0 t25 15 15 n
+p 400.0 2155.0 {A à bord} 0 n
+t 400.0 1890.0 t27 7 7 n
+p 400.0 1720.0 p9 0 n
+t 105.0 1195.0 t17 0 w n
+t 185.0 1195.0 t11 0 w n
+t 185.0 1450.0 t21 15 15 n
+p 700.0 1720.0 p8 0 n
+t 700.0 1890.0 t26 7 7 n
+p 700.0 2155.0 {éq à bord} 0 n
+p 105.0 1720.0 p10 0 n
+t 105.0 1890.0 t28 7 7 n
+p 105.0 2155.0 {B à bord} 0 n
+p 40.0 1335.0 {marcher B} 0 n
+p 105.0 1335.0 {marcher A} 0 n
+p 185.0 1335.0 {marcher eq} 0 n
+t 1140.0 1240.0 t7 0 0 n
+p 400.0 2670.0 p0 0 n
+t 105.0 2925.0 t36 0 w n
+t 400.0 2925.0 t37 0 w n
+p 710.0 3250.0 demande 0 n
+t 920.0 3420.0 OUI 0 5 n
+p 105.0 3235.0 {décollage} 0 n
+t 105.0 3455.0 t41 5 5 n
+p 105.0 3680.0 {avion en l'air} 0 n
+p 400.0 50.0 {passagers avec = A} 1 n
+p 400.0 3205.0 p11 1 n
+t 655.0 3420.0 NON 5 5 n
+t 400.0 2420.0 t34 0 0 n
+p 175.0 1090.0 {B '} 1 n
+p 470.0 1090.0 A' 1 n
+t 400.0 1195.0 {B/A} 0 w n
+t 470.0 1195.0 {B/éq} 0 w n
+t 590.0 1195.0 {A/éq} 0 w n
+t 700.0 1195.0 {éq} 0 w n
+p 590.0 1090.0 {éq.'} 1 n
+t 520.0 1195.0 A 0 w n
+p 470.0 1335.0 p6 0 n
+t 655.0 1195.0 {Les 3} 0 w n
+p 520.0 1335.0 p7 0 n
+p 590.0 1335.0 p12 0 n
+p 655.0 1335.0 p13 0 n
+p 700.0 1335.0 p14 0 n
+t 400.0 1450.0 t33 5 5 n
+t 470.0 1450.0 t35 5 5 n
+t 520.0 1450.0 t38 5 5 n
+t 590.0 1450.0 t39 5 5 n
+t 655.0 1450.0 t40 5 5 n
+t 700.0 1450.0 t42 5 5 n
+t 1400.0 1185.0 t2 20 30 n
+t 1710.0 1185.0 t16 20 30 n
+p 1180.0 480.0 {bagages équipe} 0 n
+p 1475.0 480.0 {bagages passagers} 0 n
+p 1520.0 2135.0 {bagages équipe à bord} 0 n
+p 1075.0 2155.0 {bagages passagers à bord} 0 n
+p 105.0 50.0 {passager sans = B} 1 n
+p 770.0 225.0 {check-in éq.} 0 n
+p 400.0 1335.0 p5 0 n
+p 355.0 1335.0 p4 0 n
+t 355.0 1450.0 t32 5 5 n
+t 355.0 1195.0 B 0 w n
+p 1140.0 1360.0 {bus en tourné vide} 0 n
+t 1020.0 1240.0 t9 15 15 n
+t 935.0 1240.0 t43 10 10 n
+p 935.0 1370.0 {bus fin de tournée} 0 n
+p 1640.0 180.0 {équipage est arrivé au check-in} 0 n
+t 1640.0 280.0 t44 45 45 n
+p 1640.0 390.0 {45min après leur arriver} 0 n
+p 1920.0 2000.0 {équipage est arrivé à bord} 0 n
+t 1920.0 2120.0 t45 40 40 n
+p 1920.0 2260.0 {40min après} 0 n
+p 2220.0 550.0 14h30_15h30 0 n
+t 2220.0 325.0 to1 870 870 n
+p 2220.0 990.0 15h30_16h20 0 n
+t 2220.0 765.0 to2 60 60 n
+t 2220.0 2180.0 to6 20 20 n
+p 2220.0 2000.0 17h00_17h20 0 n
+p 2220.0 2340.0 17h20_17h45 0 n
+t 2220.0 2510.0 to7 25 25 n
+t 2220.0 1210.0 to3 50 50 n
+p 2220.0 1375.0 16h20_16h45 0 n
+t 2220.0 1545.0 to4 25 25 n
+p 2220.0 1695.0 16h45_17h00 0 n
+t 2220.0 1845.0 to5 15 15 n
+t 400.0 125.0 t3 0 w n
+t 105.0 175.0 t52 0 w n
+p 400.0 225.0 {check-in A} 0 n
+e t52 {queue 1} 1 n
+e {passager sans = B} t52 1 n
+e 15h30_16h20 to3 1 n
+e to3 16h20_16h45 1 n
+e 16h20_16h45 to4 1 n
+e to4 16h45_17h00 1 n
+e 16h45_17h00 to5 1 n
+e to5 17h00_17h20 1 n
+e 17h00_17h20 to6 1 n
+e to6 17h20_17h45 1 n
+e 17h20_17h45 to7 1 n
+e to2 15h30_16h20 1 n
+e 14h30_15h30 to2 1 n
+e t45 {40min après} 1 n
+e {équipage est arrivé à bord} t45 1 n
+e t26 {équipage est arrivé à bord} 1 n
+e t44 {45min après leur arriver} 1 n
+e {équipage est arrivé au check-in} t44 1 n
+e t0 {équipage est arrivé au check-in} 1 n
+e t32 {bus fin de tournée} 1 n
+e t33 {bus fin de tournée} 1 n
+e t35 {bus fin de tournée} 1 n
+e t38 {bus fin de tournée} 1 n
+e t39 {bus fin de tournée} 1 n
+e t40 {bus fin de tournée} 1 n
+e t42 {bus fin de tournée} 1 n
+e {bus fin de tournée} t43 1 n
+e t43 {bus au quai} 1 n
+e {bagages équipe à bord} t34 1 n
+e {bagages passagers à bord} t34 1 n
+e t16 {bagages équipe à bord} 1 n
+e t2 {bagages passagers à bord} 1 n
+e t40 p10 1 n
+e t40 p9 1 n
+e t40 p8 1 n
+e t42 p8 1 n
+e t39 p8 1 n
+e t39 p9 1 n
+e t38 p9 1 n
+e t35 p8 1 n
+e t35 p10 1 n
+e t33 p9 1 n
+e t33 p10 1 n
+e t32 p10 1 n
+e {bus au quai} B 1 n
+e {bus au quai} {B/A} 1 n
+e {bus au quai} {B/éq} 1 n
+e {bus au quai} A 1 n
+e {bus au quai} A 1 n
+e {bus au quai} {A/éq} 1 n
+e {bus au quai} {Les 3} 1 n
+e {bus au quai} {éq} 1 n
+e p14 t42 1 n
+e p13 t40 1 n
+e p12 t39 1 n
+e p7 t38 1 n
+e p6 t35 1 n
+e p5 t33 1 n
+e p4 t32 1 n
+e {éq} {éq.'} 1 n
+e {Les 3} {B '} 1 n
+e {Les 3} A' 1 n
+e {Les 3} {éq.'} 1 n
+e {A/éq} {éq.'} 1 n
+e {A/éq} A' 1 n
+e A A' 1 n
+e {B/éq} {éq.'} 1 n
+e {B/éq} {B '} 1 n
+e {B/A} A' 1 n
+e {B/A} {B '} 1 n
+e B {B '} 1 n
+e {éq} p14 1 n
+e {Les 3} p13 1 n
+e {A/éq} p12 1 n
+e A p7 1 n
+e {B/éq} p6 1 n
+e {B/A} p5 1 n
+e B p4 1 n
+e {B '} {éq} 1 n
+e {éq} {B '} 1 n
+e A' {éq} 1 n
+e {éq} A' 1 n
+e {attente équipage} {éq} 1 n
+e {attente équipage} {Les 3} 1 n
+e {Attente A} {Les 3} 1 n
+e {Attente B} {Les 3} 1 n
+e {B '} {A/éq} 1 n
+e {A/éq} {B '} 1 n
+e {attente équipage} {A/éq} 1 n
+e {Attente A} {A/éq} 1 n
+e {éq.'} A 1 n
+e A {éq.'} 1 n
+e A {B '} 1 n
+e {B '} A 1 n
+e {Attente A} A 1 n
+e {B/éq} A' 1 n
+e A' {B/éq} 1 n
+e {attente équipage} {B/éq} 1 n
+e {Attente B} {B/éq} 1 n
+e {éq.'} {B/A} 1 n
+e {B/A} {éq.'} 1 n
+e {Attente A} {B/A} 1 n
+e {Attente B} {B/A} 1 n
+e {éq.'} B 1 n
+e B {éq.'} 1 n
+e B A' 1 n
+e A' B 1 n
+e {Attente B} B 1 n
+e {éq.'} t5 1 n
+e A' t4 1 n
+e {B '} t6 1 n
+e t41 {avion en l'air} 1 n
+e {décollage} t41 1 n
+e OUI 0.2281023908 219.6320289 p0 0.9766863267 412.757259 1 n
+e demande OUI 1 n
+e demande NON 1 n
+e t37 demande 1 n
+e t36 {décollage} 1 n
+e p0 t37 1 n
+e p0 t36 1 n
+e {B à bord} t34 1 n
+e {éq à bord} t34 1 n
+e t34 p0 1 n
+e {A à bord} t34 1 n
+e {sécurité ' éq} t6 1 n
+e t6 {sécurité ' éq} 1 n
+e {sécurité' A} t6 1 n
+e t6 {sécurité' A} 1 n
+e t6 {sécurité' B} 1 n
+e {sécurité' B} t5 1 n
+e t5 {sécurité' B} 1 n
+e {sécurité' A} t5 1 n
+e t5 {sécurité' A} 1 n
+e {sécurité' B} t4 1 n
+e t4 {sécurité' B} 1 n
+e {sécurité ' éq} t4 1 n
+e t4 {sécurité ' éq} 1 n
+e t4 {sécurité' A} 1 n
+e {sécurité' B} t14 1 n
+e t14 {sécurité' B} 1 n
+e {sécurité' A} t14 1 n
+e t13 {sécurité ' éq} 1 n
+e t14 {sécurité ' éq} 1 n
+e t4 {Attente A} 1 n
+e t6 {Attente B} 1 n
+e {sécurité} t6 1 n
+e {sécurité} t4 1 n
+e t5 {attente équipage} 1 n
+e t5 {sécurité ' éq} 1 n
+e t14 {sécurité} 1 n
+e t13 {sécurité} 1 n
+e to1 14h30_15h30 1 n
+e observer to1 1 n
+e equipage t0 1 n
+e t0 {check-in éq.} 1 n
+e {check-in éq.} t1 1 n
+e t1 {bagages équipe} 1 n
+e {bagages équipe} t2 1 n
+e {passagers avec = A} t3 1 n
+e {sécurité} t5 1 n
+e {check-in A} t8 1 n
+e t3 {check-in A} 1 n
+e {check-in prime} t0 1 n
+e {check-in prime} t3 1 n
+e t1 {check-in prime} 1 n
+e t8 {check-in prime} 1 n
+e t8 {queue 2 } 1 n
+e t1 {queue 3} 1 n
+e {sécurité ' éq} t15 1 n
+e {sécurité ' éq} t14 1 n
+e {sécurité ' éq} t13 1 n
+e {queue 1} t13 1 n
+e {queue 2 } t14 1 n
+e {queue 3} t15 1 n
+e t15 {sécurité} 1 n
+e {bagages passagers} t16 1 n
+e t8 0.01275150953 159.8670814 {bagages passagers} 0.458204474 112.0151118 1 n
+e {sécurité' B} t13 1 n
+e {bus au quai} t7 1 n
+e t7 {bus en tourné vide} 1 n
+e {bus en tourné vide} t9 1 n
+e t9 {bus au quai} 1 n
+e {attente équipage} t11 1 n
+e {Attente A} t17 1 n
+e {Attente B} t19 1 n
+e t11 {marcher eq} 1 n
+e t17 {marcher A} 1 n
+e t19 {marcher B} 1 n
+e {marcher eq} t21 1 n
+e {marcher A} t23 1 n
+e {marcher B} t25 1 n
+e t25 p10 1 n
+e t23 p9 1 n
+e t21 p8 1 n
+e p8 t26 1 n
+e p9 t27 1 n
+e p10 t28 1 n
+e t28 {B à bord} 1 n
+e t27 {A à bord} 1 n
+e t26 {éq à bord} 1 n
+e p11 t37 1 n
+h {embarquement passager}
+
+

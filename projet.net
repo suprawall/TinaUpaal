@@ -1,0 +1,6 @@
+tr t0 [0,w[ p0 ->
+tr t1 [0,w[ p0 -> p1
+tr t2 [0,w[ p1 -> p0
+tr t3 [0,w[ p1 ->
+net projet
+

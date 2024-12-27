@@ -1,0 +1,163 @@
+
+state 0
+props observer p0 p1
+trans t1/1 t4/2 to1/3
+
+state 1
+props observer p1 p2
+trans t3/4 to1/5
+
+state 2
+props demande observer
+trans t5/6 t2/6 t6/7 to1/8
+
+state 3
+props 16h20_16h45 p0 p1
+trans t1/5 t4/8 t7/9
+
+state 4
+props {l'avion part} observer p1
+trans to1/10
+
+state 5
+props 16h20_16h45 p1 p2
+trans t3/10 t7/11
+
+state 6
+props observer p0
+trans t1/12 to1/13
+
+state 7
+props observer
+trans to1/14
+
+state 8
+props 16h20_16h45 demande
+trans t5/13 t2/13 t6/14 t7/15
+
+state 9
+props 16h45_17h00 p0 p1
+trans t1/11 t4/15 t0/16
+
+state 10
+props 16h20_16h45 {l'avion part} p1
+trans t7/17
+
+state 11
+props 16h45_17h00 p1 p2
+trans t3/17 t0/18
+
+state 12
+props observer p2
+trans t3/19 to1/20
+
+state 13
+props 16h20_16h45 p0
+trans t1/20 t7/21
+
+state 14
+props 16h20_16h45
+trans t7/22
+
+state 15
+props 16h45_17h00 demande
+trans t5/21 t2/21 t6/22 t0/23
+
+state 16
+props 17h00_17h20 p0 p1
+trans t1/18 t4/23 t8/24
+
+state 17
+props 16h45_17h00 {l'avion part} p1
+trans t0/25
+
+state 18
+props 17h00_17h20 p1 p2
+trans t3/25 t8/26
+
+state 19
+props {l'avion part} observer
+trans to1/27
+
+state 20
+props 16h20_16h45 p2
+trans t3/27 t7/28
+
+state 21
+props 16h45_17h00 p0
+trans t1/28 t0/29
+
+state 22
+props 16h45_17h00
+trans t0/30
+
+state 23
+props 17h00_17h20 demande
+trans t5/29 t2/29 t6/30 t8/31
+
+state 24
+props 17h20_17h45 p0 p1
+trans t1/26 t4/31
+
+state 25
+props 17h00_17h20 {l'avion part} p1
+trans t8/32
+
+state 26
+props 17h20_17h45 p1 p2
+trans t3/32
+
+state 27
+props 16h20_16h45 {l'avion part}
+trans t7/33
+
+state 28
+props 16h45_17h00 p2
+trans t3/33 t0/34
+
+state 29
+props 17h00_17h20 p0
+trans t1/34 t8/35
+
+state 30
+props 17h00_17h20
+trans t8/36
+
+state 31
+props 17h20_17h45 demande
+trans t5/35 t2/35 t6/36
+
+state 32
+props 17h20_17h45 {l'avion part} p1
+trans
+
+state 33
+props 16h45_17h00 {l'avion part}
+trans t0/37
+
+state 34
+props 17h00_17h20 p2
+trans t3/37 t8/38
+
+state 35
+props 17h20_17h45 p0
+trans t1/38
+
+state 36
+props 17h20_17h45
+trans
+
+state 37
+props 17h00_17h20 {l'avion part}
+trans t8/39
+
+state 38
+props 17h20_17h45 p2
+trans t3/39
+
+state 39
+props 17h20_17h45 {l'avion part}
+trans
+
+
+

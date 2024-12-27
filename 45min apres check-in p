@@ -1,0 +1,120 @@
+Selt version 3.8.5/lm -- 12/01/24 -- LAAS/CNRS
+ktz loaded, 118904 states, 641505 transitions
+0.438s
+
+- output fullproof
+= ;
+output mode set
+0.000s
+
+- -([]({check-in p} => {45min après leur arriver}));
+FALSE
+  state 0: A' {B '} {bus au quai} {check-in prime} equipage observer p11 {passager sans} {passagers } {sécurité ' éq} {sécurité' A} {sécurité' B} {éq.'}
+  -t0->
+  state 1: A' {B '} {bus au quai} {check-in e} observer p11 {passager sans} {passagers } {sécurité ' éq} {sécurité' A} {sécurité' B} {éq.'} {équipage est arrivé au check-in}
+  -t1->
+  state 2: A' {B '} {bagages équipe} {bus au quai} {check-in prime} observer p11 {passager sans} {passagers } {queue 3} {sécurité ' éq} {sécurité' A} {sécurité' B} {éq.'} {équipage est arrivé au check-in}
+  -t15->
+  state 3: A' {B '} {bagages équipe} {bus au quai} {check-in prime} observer p11 {passager sans} {passagers } {sécurité} {sécurité' A} {sécurité' B} {éq.'} {équipage est arrivé au check-in}
+  -t2->
+  state 4: A' {B '} {bagages passagers à bord} {bus au quai} {check-in prime} observer p11 {passager sans} {passagers } {sécurité} {sécurité' A} {sécurité' B} {éq.'} {équipage est arrivé au check-in}
+  -t44->
+  state 6: {45min après leur arriver} A' {B '} {bagages passagers à bord} {bus au quai} {check-in prime} observer p11 {passager sans} {passagers } {sécurité} {sécurité' A} {sécurité' B} {éq.'}
+  -t3->
+  state 7: {45min après leur arriver} A' {B '} {bagages passagers à bord} {bus au quai} {check-in p} observer p11 {queue 1} {sécurité} {sécurité' A} {sécurité' B} {éq.'}
+  -t5->
+  state 8: {45min après leur arriver} A' {B '} {attente équipage} {bagages passagers à bord} {bus au quai} {check-in p} observer p11 {queue 1} {sécurité ' éq} {sécurité' A} {sécurité' B}
+  -t11->
+  state 9: {45min après leur arriver} A' {B '} {bagages passagers à bord} {bus au quai} {check-in p} {marcher eq} observer p11 {queue 1} {sécurité ' éq} {sécurité' A} {sécurité' B}
+  -t13->
+  state 10: {45min après leur arriver} A' {B '} {bagages passagers à bord} {bus au quai} {check-in p} {marcher eq} observer p11 {sécurité} {sécurité ' éq} {sécurité' A}
+  -t21->
+  state 11: {45min après leur arriver} A' {B '} {bagages passagers à bord} {bus au quai} {check-in p} observer p11 p8 {sécurité} {sécurité ' éq} {sécurité' A}
+  -t26->
+  state 12: {45min après leur arriver} A' {B '} {bagages passagers à bord} {bus au quai} {check-in p} observer p11 {sécurité} {sécurité ' éq} {sécurité' A} {éq à bord} {équipage est arrivé à bord}
+  -t45->
+  state 13: {40min après} {45min après leur arriver} A' {B '} {bagages passagers à bord} {bus au quai} {check-in p} observer p11 {sécurité} {sécurité ' éq} {sécurité' A} {éq à bord}
+  -t6->
+  state 14: {40min après} {45min après leur arriver} A' {Attente B} {bagages passagers à bord} {bus au quai} {check-in p} observer p11 {sécurité ' éq} {sécurité' A} {sécurité' B} {éq à bord}
+  -t19->
+  state 15: {40min après} {45min après leur arriver} A' {bagages passagers à bord} {bus au quai} {check-in p} {marcher B} observer p11 {sécurité ' éq} {sécurité' A} {sécurité' B} {éq à bord}
+  -t25->
+  state 16: {40min après} {45min après leur arriver} A' {bagages passagers à bord} {bus au quai} {check-in p} observer p10 p11 {sécurité ' éq} {sécurité' A} {sécurité' B} {éq à bord}
+  -t28->
+  state 17: {40min après} {45min après leur arriver} A' {B à bord} {bagages passagers à bord} {bus au quai} {check-in p} observer p11 {sécurité ' éq} {sécurité' A} {sécurité' B} {éq à bord}
+  -t7->
+  state 18: {40min après} {45min après leur arriver} A' {B à bord} {bagages passagers à bord} {bus en tourné vide} {check-in p} observer p11 {sécurité ' éq} {sécurité' A} {sécurité' B} {éq à bord}
+  -t8->
+  state 19: {40min après} {45min après leur arriver} A' {B à bord} {bagages passagers} {bagages passagers à bord} {bus en tourné vide} {check-in prime} observer p11 {queue 2 } {sécurité ' éq} {sécurité' A} {sécurité' B} {éq à bord}
+  -t9->
+  state 20: {40min après} {45min après leur arriver} A' {B à bord} {bagages passagers} {bagages passagers à bord} {bus au quai} {check-in prime} observer p11 {queue 2 } {sécurité ' éq} {sécurité' A} {sécurité' B} {éq à bord}
+  -t14->
+  state 21: {40min après} {45min après leur arriver} A' {B à bord} {bagages passagers} {bagages passagers à bord} {bus au quai} {check-in prime} observer p11 {sécurité} {sécurité ' éq} {sécurité' B} {éq à bord}
+  -t7->
+  state 22: {40min après} {45min après leur arriver} A' {B à bord} {bagages passagers} {bagages passagers à bord} {bus en tourné vide} {check-in prime} observer p11 {sécurité} {sécurité ' éq} {sécurité' B} {éq à bord}
+  -t16->
+  state 23: {40min après} {45min après leur arriver} A' {B à bord} {bagages passagers à bord} {bagages équipe à bord} {bus en tourné vide} {check-in prime} observer p11 {sécurité} {sécurité ' éq} {sécurité' B} {éq à bord}
+  -t9->
+  state 24: {40min après} {45min après leur arriver} A' {B à bord} {bagages passagers à bord} {bagages équipe à bord} {bus au quai} {check-in prime} observer p11 {sécurité} {sécurité ' éq} {sécurité' B} {éq à bord}
+  -t4->
+  state 25: {40min après} {45min après leur arriver} {Attente A} {B à bord} {bagages passagers à bord} {bagages équipe à bord} {bus au quai} {check-in prime} observer p11 {sécurité ' éq} {sécurité' A} {sécurité' B} {éq à bord}
+  -t7->
+  state 26: {40min après} {45min après leur arriver} {Attente A} {B à bord} {bagages passagers à bord} {bagages équipe à bord} {bus en tourné vide} {check-in prime} observer p11 {sécurité ' éq} {sécurité' A} {sécurité' B} {éq à bord}
+  -t17->
+  state 27: {40min après} {45min après leur arriver} {B à bord} {bagages passagers à bord} {bagages équipe à bord} {bus en tourné vide} {check-in prime} {marcher A} observer p11 {sécurité ' éq} {sécurité' A} {sécurité' B} {éq à bord}
+  -t9->
+  state 28: {40min après} {45min après leur arriver} {B à bord} {bagages passagers à bord} {bagages équipe à bord} {bus au quai} {check-in prime} {marcher A} observer p11 {sécurité ' éq} {sécurité' A} {sécurité' B} {éq à bord}
+  -t23->
+  state 29: {40min après} {45min après leur arriver} {B à bord} {bagages passagers à bord} {bagages équipe à bord} {bus au quai} {check-in prime} observer p11 p9 {sécurité ' éq} {sécurité' A} {sécurité' B} {éq à bord}
+  -t7->
+  state 30: {40min après} {45min après leur arriver} {B à bord} {bagages passagers à bord} {bagages équipe à bord} {bus en tourné vide} {check-in prime} observer p11 p9 {sécurité ' éq} {sécurité' A} {sécurité' B} {éq à bord}
+  -t27->
+  state 31: {40min après} {45min après leur arriver} {A à bord} {B à bord} {bagages passagers à bord} {bagages équipe à bord} {bus en tourné vide} {check-in prime} observer p11 {sécurité ' éq} {sécurité' A} {sécurité' B} {éq à bord}
+  -t9->
+  state 32: {40min après} {45min après leur arriver} {A à bord} {B à bord} {bagages passagers à bord} {bagages équipe à bord} {bus au quai} {check-in prime} observer p11 {sécurité ' éq} {sécurité' A} {sécurité' B} {éq à bord}
+  -t34->
+  state 33: {40min après} {45min après leur arriver} {bus au quai} {check-in prime} observer p0 p11 {sécurité ' éq} {sécurité' A} {sécurité' B}
+  -t7->
+  state 34: {40min après} {45min après leur arriver} {bus en tourné vide} {check-in prime} observer p0 p11 {sécurité ' éq} {sécurité' A} {sécurité' B}
+  -t36->
+  state 35: {40min après} {45min après leur arriver} {bus en tourné vide} {check-in prime} {décollage} observer p11 {sécurité ' éq} {sécurité' A} {sécurité' B}
+  -t9->
+  state 36: {40min après} {45min après leur arriver} {bus au quai} {check-in prime} {décollage} observer p11 {sécurité ' éq} {sécurité' A} {sécurité' B}
+  -t41->
+  state 37: {40min après} {45min après leur arriver} {avion en l'air} {bus au quai} {check-in prime} observer p11 {sécurité ' éq} {sécurité' A} {sécurité' B}
+  -t7->
+  state 38: {40min après} {45min après leur arriver} {avion en l'air} {bus en tourné vide} {check-in prime} observer p11 {sécurité ' éq} {sécurité' A} {sécurité' B}
+  -to1->
+  state 39: 14h30_15h30 {40min après} {45min après leur arriver} {avion en l'air} {bus en tourné vide} {check-in prime} p11 {sécurité ' éq} {sécurité' A} {sécurité' B}
+  -t9->
+  state 40: 14h30_15h30 {40min après} {45min après leur arriver} {avion en l'air} {bus au quai} {check-in prime} p11 {sécurité ' éq} {sécurité' A} {sécurité' B}
+  -to2->
+  state 41: 15h30_16h20 {40min après} {45min après leur arriver} {avion en l'air} {bus au quai} {check-in prime} p11 {sécurité ' éq} {sécurité' A} {sécurité' B}
+  -t7->
+  state 42: 15h30_16h20 {40min après} {45min après leur arriver} {avion en l'air} {bus en tourné vide} {check-in prime} p11 {sécurité ' éq} {sécurité' A} {sécurité' B}
+  -to3->
+  state 43: 16h20_16h45 {40min après} {45min après leur arriver} {avion en l'air} {bus en tourné vide} {check-in prime} p11 {sécurité ' éq} {sécurité' A} {sécurité' B}
+  -t9->
+  state 44: 16h20_16h45 {40min après} {45min après leur arriver} {avion en l'air} {bus au quai} {check-in prime} p11 {sécurité ' éq} {sécurité' A} {sécurité' B}
+  -to4->
+  state 45: 16h45_17h00 {40min après} {45min après leur arriver} {avion en l'air} {bus au quai} {check-in prime} p11 {sécurité ' éq} {sécurité' A} {sécurité' B}
+  -t7->
+  state 46: 16h45_17h00 {40min après} {45min après leur arriver} {avion en l'air} {bus en tourné vide} {check-in prime} p11 {sécurité ' éq} {sécurité' A} {sécurité' B}
+  -to5->
+  state 47: 17h00_17h20 {40min après} {45min après leur arriver} {avion en l'air} {bus en tourné vide} {check-in prime} p11 {sécurité ' éq} {sécurité' A} {sécurité' B}
+  -t9->
+  state 48: 17h00_17h20 {40min après} {45min après leur arriver} {avion en l'air} {bus au quai} {check-in prime} p11 {sécurité ' éq} {sécurité' A} {sécurité' B}
+  -to6->
+  state 49: 17h20_17h45 {40min après} {45min après leur arriver} {avion en l'air} {bus au quai} {check-in prime} p11 {sécurité ' éq} {sécurité' A} {sécurité' B}
+  -t7->
+  state 50: 17h20_17h45 {40min après} {45min après leur arriver} {avion en l'air} {bus en tourné vide} {check-in prime} p11 {sécurité ' éq} {sécurité' A} {sécurité' B}
+  -to7->
+* [accepting] state 51: {40min après} {45min après leur arriver} {avion en l'air} {bus en tourné vide} {check-in prime} p11 {sécurité ' éq} {sécurité' A} {sécurité' B}
+  -t9->
+  state 52: {40min après} {45min après leur arriver} {avion en l'air} {bus au quai} {check-in prime} p11 {sécurité ' éq} {sécurité' A} {sécurité' B}
+  -t7->
+  state 51: {40min après} {45min après leur arriver} {avion en l'air} {bus en tourné vide} {check-in prime} p11 {sécurité ' éq} {sécurité' A} {sécurité' B}
+0.016s
+
+- 
+

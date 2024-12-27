@@ -1,0 +1,15 @@
+p 105.0 50.0 p0 0 n
+t 25.0 195.0 t0 0 w n
+t 185.0 200.0 t1 0 w n
+t 115.0 205.0 t2 0 w n
+t 185.0 440.0 t3 0 w n
+p 185.0 315.0 p1 0 n
+e p1 t3 1 n
+e t2 p0 1 n
+e p1 t2 1 n
+e t1 p1 1 n
+e p0 t1 1 n
+e p0 t0 1 n
+h projet
+
+
